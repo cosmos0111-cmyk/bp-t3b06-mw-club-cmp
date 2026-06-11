@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <meta name="description" content="망원 클럽 비교? 여기가 끝판왕이다. 진짜 클럽러들만 아는 망원의 핫스팟, 가격, 분위기, 꿀팁까지 싹 다 까발린다. 네 취향에 맞는 클럽을 찾아라. 클럽 못 고르는 건 변명이다.">
+    <meta name="keywords" content="망원 클럽, 망원 클럽 비교, 망원 클럽 추천, 망원 홍대 클럽, 망원 클럽 가격, 망원 클럽 분위기, 망원 클럽 꿀팁, 망원 클럽 리뷰, 망원 클럽 정보, 망원 클럽 순위">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://t3b06-mw-club-cmp.vercel.app/">
+    <meta property="og:title" content="망원 클럽 비교 – 진짜 존나게 솔직한 리뷰">
+    <meta property="og:description" content="망원 클럽 비교? 여기가 끝판왕이다. 진짜 클럽러들만 아는 망원의 핫스팟, 가격, 분위기, 꿀팁까지 싹 다 까발린다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b06-mw-club-cmp.vercel.app/">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="망원클럽비교">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="망원 클럽 비교 – 진짜 존나게 솔직한 리뷰">
+    <meta name="twitter:description" content="망원 클럽 비교? 여기가 끝판왕이다. 진짜 클럽러들만 아는 망원의 핫스팟, 가격, 분위기, 꿀팁까지 싹 다 까발린다.">
+    <title>망원 클럽 비교 – 블로그 | 끝판왕 리뷰</title>
+    <style>
+        /* ========== BRUTALIST AVANT-GARDE CSS (RAW CONCRETE THEME) ========== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a1a1a;
+            color: #e6e6e6;
+            line-height: 1.6;
+            padding: 2rem;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0.02) 0px,
+                rgba(255, 255, 255, 0.02) 2px,
+                transparent 2px,
+                transparent 4px
+            );
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            border: 3px solid #e6e6e6;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2a2a2a;
+            position: relative;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            color: #ff4d4d;
+            text-shadow: 4px 4px 0 #000;
+        }
+
+        .hamburger-menu {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 6px;
+            padding: 8px;
+            border: 2px solid #e6e6e6;
+            background: #1a1a1a;
+            transition: all 0.2s;
+        }
+
+        .hamburger-menu:hover {
+            background: #ff4d4d;
+            border-color: #ff4d4d;
+        }
+
+        .hamburger-menu span {
+            display: block;
+            width: 32px;
+            height: 4px;
+            background: #e6e6e6;
+            transition: all 0.3s;
+        }
+
+        .hamburger-menu.active span:nth-child(1) {
+            transform: rotate(45deg) translate(7px, 7px);
+        }
+
+        .hamburger-menu.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger-menu.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        nav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #2a2a2a;
+            border: 3px solid #e6e6e6;
+            border-top: none;
+            padding: 1.5rem;
+            z-index: 100;
+        }
+
+        nav.open {
+            display: block;
+        }
+
+        nav a {
+            display: block;
+            color: #e6e6e6;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0.8rem 1rem;
+            border-bottom: 2px solid #444;
+            transition: all 0.2s;
+        }
+
+        nav a:hover {
+            background: #ff4d4d;
+            color: #000;
+            padding-left: 2rem;
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            border: 4px solid #e6e6e6;
+            padding: 4rem 2rem;
+            margin-bottom: 3rem;
+            background: #222;
+            text-align: center;
+            position: relative;
+            z-index: 5;
+            box-shadow: 12px 12px 0 #ff4d4d;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -3px;
+            color: #ff4d4d;
+            text-shadow: 6px 6px 0 #000;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: #ccc;
+            max-width: 800px;
+            margin: 0 auto;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-top: 2px solid #ff4d4d;
+            border-bottom: 2px solid #ff4d4d;
+            padding: 0.8rem 0;
+        }
+
+        .hero-subtitle::before {
+            content: '🔥 ';
+        }
+
+        .hero-subtitle::after {
+            content: ' 🔥';
+        }
+
+        /* ===== CARDS SECTION ===== */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            z-index: 5;
+        }
+
+        .card {
+            border: 3px solid #e6e6e6;
+            padding: 2rem;
+            background: #2a2a2a;
+            transition: all 0.2s;
+            box-shadow: 8px 8px 0 transparent;
+        }
+
+        .card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0 #ff4d4d;
+            border-color: #ff4d4d;
+        }
+
+        .card h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ff4d4d;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+
+        .card .highlight {
+            background: #ff4d4d;
+            color: #000;
+            padding: 0.2rem 0.6rem;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .card ul li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #ddd;
+        }
+
+        .card ul li::before {
+            content: '›';
+            position: absolute;
+            left: 0;
+            color: #ff4d4d;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        /* ===== FAQ SECTION ===== */
+        .faq {
+            border: 4px solid #e6e6e6;
+            padding: 3rem 2rem;
+            margin-bottom: 3rem;
+            background: #1e1e1e;
+            position: relative;
+            z-index: 5;
+        }
+
+        .faq h2 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ff4d4d;
+            text-shadow: 4px 4px 0 #000;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .faq-item {
+            border-bottom: 2px solid #444;
+            padding: 1.2rem 0;
+        }
+
+        .faq-question {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #e6e6e6;
+            cursor: pointer;
+            display
+</body>
+</html>
