@@ -1,145 +1,143 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-ledger-warm">
-    <title>망원 클럽 심층 분석: 당신에게 맞는 최고의 선택은?</title>
-    <meta name="description" content="망원 지역 클럽들의 상세한 비교 분석을 통해 당신의 취향과 목적에 가장 적합한 클럽을 찾으세요. 각 클럽의 특징, 분위기, 추천 음악 장르, 방문 팁까지 전문적인 정보를 제공합니다.">
-    <meta name="keywords" content="망원 클럽, 망원 클럽 비교, 망원 밤문화, 서울 클럽 추천, 클럽 가이드, 홍대 클럽, 음악 장르별 클럽, 망원 엔터테인먼트">
-    <link rel="canonical" href="https://mangwon-club-tip.link-hub.org/blog.html">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mangwon-club-tip.link-hub.org/blog.html">
-    <meta property="og:title" content="망원 클럽 심층 분석: 당신에게 맞는 최고의 선택은?">
-    <meta property="og:description" content="망원 지역 클럽들의 상세한 비교 분석을 통해 당신의 취향과 목적에 가장 적합한 클럽을 찾으세요. 각 클럽의 특징, 분위기, 추천 음악 장르, 방문 팁까지 전문적인 정보를 제공합니다.">
-    <meta property="og:image" content="https://mangwon-club-tip.link-hub.org/og-image.jpg"> <!-- 실제 이미지 경로로 변경 필요 -->
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mangwon-club-tip.link-hub.org/blog">
-    <meta property="twitter:title" content="망원 클럽 심층 분석: 당신에게 맞는 최고의 선택은?">
-    <meta property="twitter:description" content="망원 지역 클럽들의 상세한 비교 분석을 통해 당신의 취향과 목적에 가장 적합한 클럽을 찾으세요. 각 클럽의 특징, 분위기, 추천 음악 장르, 방문 팁까지 전문적인 정보를 제공합니다.">
-    <meta property="twitter:image" content="https://mangwon-club-tip.link-hub.org/twitter-image.jpg"> <!-- 실제 이미지 경로로 변경 필요 -->
-    <!-- Favicon & Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <style>
-        /* 여기에 이전 페이지와 동일한 CSS 코드를 그대로 붙여넣습니다. */
-        /* 예시: */
-        body { font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
-        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .nav { background-color: #f8f8f8; padding: 15px 0; border-bottom: 1px solid #eee; }
-        .nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; }
-        .nav li { margin: 0 15px; }
-        .nav a { text-decoration: none; color: #555; font-weight: 500; }
-        .nav a:hover { color: #007aff; }
-        .page-header { text-align: center; margin-bottom: 40px; }
-        .page-header h1 { font-size: 2.5em; margin-bottom: 10px; color: #111; }
-        .page-header p { font-size: 1.1em; color: #666; }
-        .content-section { margin-bottom: 40px; }
-        .content-section h2 { font-size: 2em; margin-bottom: 20px; color: #222; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
-        .blog-post { background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
-        .blog-post h3 { font-size: 1.8em; margin-bottom: 15px; color: #333; }
-        .blog-post p { font-size: 1em; margin-bottom: 15px; color: #555; }
-        .blog-post ul { margin-left: 20px; margin-bottom: 15px; }
-        .blog-post li { margin-bottom: 8px; }
-        .blog-post strong { color: #000; }
-        .cta-banner { background-color: #eef7ff; padding: 30px; text-align: center; border-radius: 8px; margin-top: 40px; }
-        .cta-banner h3 { font-size: 1.6em; margin-bottom: 15px; color: #005bb5; }
-        .cta-banner p { font-size: 1.1em; color: #333; margin-bottom: 20px; }
-        .cta-banner a { display: inline-block; background-color: #007aff; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s ease; }
-        .cta-banner a:hover { background-color: #0056b3; }
-        .faq-section { margin-top: 40px; }
-        .faq-section h2 { border-bottom: none; }
-        .faq-item { margin-bottom: 20px; }
-        .faq-question { font-weight: bold; cursor: pointer; position: relative; padding-left: 25px; margin-bottom: 8px; color: #000; }
-        .faq-question::before { content: '+'; position: absolute; left: 0; font-size: 1.2em; color: #007aff; }
-        .faq-answer { margin-left: 25px; color: #555; display: none; } /* JavaScript로 토글 */
-        .footer { text-align: center; padding: 30px 0; margin-top: 40px; font-size: 0.9em; color: #888; border-top: 1px solid #eee; }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>망원 클럽 심층 분석: 당신에게 맞는 최고의 선택은?</title>
+ <meta name="description" content="망원 지역 클럽들의 상세한 비교 분석을 통해 당신의 취향과 목적에 가장 적합한 클럽을 찾으세요. 각 클럽의 특징, 분위기, 추천 음악 장르, 방문 팁까지 전문적인 정보를 제공합니다.">
+ <meta name="keywords" content="망원 클럽, 망원 클럽 비교, 망원 밤문화, 서울 클럽 추천, 클럽 가이드, 홍대 클럽, 음악 장르별 클럽, 망원 엔터테인먼트">
+ <link rel="canonical" href="https://mangwon-club-tip.link-hub.org/blog.html">
+ <!-- Open Graph / Facebook -->
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://mangwon-club-tip.link-hub.org/blog.html">
+ <meta property="og:title" content="망원 클럽 심층 분석: 당신에게 맞는 최고의 선택은?">
+ <meta property="og:description" content="망원 지역 클럽들의 상세한 비교 분석을 통해 당신의 취향과 목적에 가장 적합한 클럽을 찾으세요. 각 클럽의 특징, 분위기, 추천 음악 장르, 방문 팁까지 전문적인 정보를 제공합니다.">
+ <meta property="og:image" content="https://mangwon-club-tip.link-hub.org/og-image.jpg"> <!-- 실제 이미지 경로로 변경 필요 -->
+ <!-- Twitter -->
+ <meta property="twitter:card" content="summary_large_image">
+ <meta property="twitter:url" content="https://mangwon-club-tip.link-hub.org/blog">
+ <meta property="twitter:title" content="망원 클럽 심층 분석: 당신에게 맞는 최고의 선택은?">
+ <meta property="twitter:description" content="망원 지역 클럽들의 상세한 비교 분석을 통해 당신의 취향과 목적에 가장 적합한 클럽을 찾으세요. 각 클럽의 특징, 분위기, 추천 음악 장르, 방문 팁까지 전문적인 정보를 제공합니다.">
+ <meta property="twitter:image" content="https://mangwon-club-tip.link-hub.org/twitter-image.jpg"> <!-- 실제 이미지 경로로 변경 필요 -->
+ <!-- Favicon & Icons -->
+ <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+ <link rel="manifest" href="/site.webmanifest">
+ <style>
+ /* 여기에 이전 페이지와 동일한 CSS 코드를 그대로 붙여넣습니다. */
+ /* 예시: */
+ body { font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+ .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 20px; }
+ .nav { background-color: #f8f8f8; padding: 15px 0; border-bottom: 1px solid #eee; }
+ .nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; }
+ .nav li { margin: 0 15px; }
+ .nav a { text-decoration: none; color: #555; font-weight: 500; }
+ .nav a:hover { color: #007aff; }
+ .page-header { text-align: center; margin-bottom: 40px; }
+ .page-header h1 { font-size: 2.5em; margin-bottom: 10px; color: #111; }
+ .page-header p { font-size: 1.1em; color: #666; }
+ .content-section { margin-bottom: 40px; }
+ .content-section h2 { font-size: 2em; margin-bottom: 20px; color: #222; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+ .blog-post { background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
+ .blog-post h3 { font-size: 1.8em; margin-bottom: 15px; color: #333; }
+ .blog-post p { font-size: 1em; margin-bottom: 15px; color: #555; }
+ .blog-post ul { margin-left: 20px; margin-bottom: 15px; }
+ .blog-post li { margin-bottom: 8px; }
+ .blog-post strong { color: #000; }
+ .cta-banner { background-color: #eef7ff; padding: 30px; text-align: center; border-radius: 8px; margin-top: 40px; }
+ .cta-banner h3 { font-size: 1.6em; margin-bottom: 15px; color: #005bb5; }
+ .cta-banner p { font-size: 1.1em; color: #333; margin-bottom: 20px; }
+ .cta-banner a { display: inline-block; background-color: #007aff; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s ease; }
+ .cta-banner a:hover { background-color: #0056b3; }
+ .faq-section { margin-top: 40px; }
+ .faq-section h2 { border-bottom: none; }
+ .faq-item { margin-bottom: 20px; }
+ .faq-question { font-weight: bold; cursor: pointer; position: relative; padding-left: 25px; margin-bottom: 8px; color: #000; }
+ .faq-question::before { content: '+'; position: absolute; left: 0; font-size: 1.2em; color: #007aff; }
+ .faq-answer { margin-left: 25px; color: #555; display: none; } /* JavaScript로 토글 */
+ .footer { text-align: center; padding: 30px 0; margin-top: 40px; font-size: 0.9em; color: #888; border-top: 1px solid #eee; }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header class="nav">
-        <div class="container">
-            <ul>
-                <li><a href="/">홈</a></li>
-                <li><a href="/#comparison">클럽 비교</a></li>
-                <li><a href="/#guide">이용 가이드</a></li>
-                <li><a href="/blog">블로그</a></li>
-                <li><a href="/contact">문의</a></li>
-            </ul>
-        </div>
-    </header>
+ <header class="nav">
+ <div class="container">
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/#comparison">클럽 비교</a></li>
+ <li><a href="/#guide">이용 가이드</a></li>
+ <li><a href="/blog">블로그</a></li>
+ <li><a href="/contact">문의</a></li>
+ </ul>
+ </div>
+ </header>
 
-    <div class="container">
-        <section class="page-header">
-            <h1>망원 클럽 인사이트: 전문가 분석</h1>
-            <p>망원 지역 클럽 문화에 대한 깊이 있는 정보와 최신 트렌드를 제공합니다.</p>
-        </section>
+ <div class="container">
+ <section class="page-header">
+ <h1>망원 클럽 인사이트: 전문가 분석</h1>
+ <p>망원 지역 클럽 문화에 대한 깊이 있는 정보와 최신 트렌드를 제공합니다.</p>
+ </section>
 
-        <section class="content-section">
-            <article class="blog-post">
-                <h3>망원 클럽 생태계 완벽 해부: 당신의 밤을 책임질 최적의 장소는?</h3>
-                <p>활기찬 밤문화의 중심지, 망원 지역에는 다채로운 매력을 가진 클럽들이 존재합니다. 각기 다른 음악 스타일, 분위기, 고객층을 자랑하는 이 클럽들 사이에서 당신의 취향과 목적에 완벽하게 부합하는 곳을 찾는 것은 쉽지 않은 일입니다.</p>
-                <p>본 블로그 게시물은 망원 지역의 주요 클럽들을 객관적인 데이터와 전문가의 시각으로 심층 분석하여, 당신이 후회 없는 선택을 할 수 있도록 돕는 것을 목표로 합니다. 단순한 정보 나열을 넘어, 각 클럽의 특징을 면밀히 파악하고, 숨겨진 매력과 방문 시 고려해야 할 사항들을 상세히 제공할 것입니다.</p>
-                
-                <h4>주요 분석 항목</h4>
-                <ul>
-                    <li><strong>음악 장르:</strong> EDM, 힙합, 테크노 등 각 클럽이 주로 선보이는 음악 스타일 분석</li>
-                    <li><strong>분위기 및 인테리어:</strong> 고급스러운 파티 분위기부터 캐주얼하고 자유로운 공간까지, 각 클럽의 독특한 분위기</li>
-                    <li><strong>고객층:</strong> 연령대, 선호하는 음악, 방문 목적 등 예상되는 주요 고객층 정보</li>
-                    <li><strong>주요 특징 및 장점:</strong> 특별한 이벤트, VIP 서비스, 독특한 엔터테인먼트 요소 등</li>
-                    <li><strong>방문 팁:</strong> 최적의 방문 시간, 복장 규정, 예약 정보, 주변 교통 등 실질적인 가이드</li>
-                </ul>
+ <section class="content-section">
+ <article class="blog-post">
+ <h3>망원 클럽 생태계 완벽 해부: 당신의 밤을 책임질 최적의 장소는?</h3>
+ <p>활기찬 밤문화의 중심지, 망원 지역에는 다채로운 매력을 가진 클럽들이 존재합니다. 각기 다른 음악 스타일, 분위기, 고객층을 자랑하는 이 클럽들 사이에서 당신의 취향과 목적에 완벽하게 부합하는 곳을 찾는 것은 쉽지 않은 일입니다.</p>
+ <p>본 블로그 게시물은 망원 지역의 주요 클럽들을 객관적인 데이터와 전문가의 시각으로 심층 분석하여, 당신이 후회 없는 선택을 할 수 있도록 돕는 것을 목표로 합니다. 단순한 정보 나열을 넘어, 각 클럽의 특징을 면밀히 파악하고, 숨겨진 매력과 방문 시 고려해야 할 사항들을 상세히 제공할 것입니다.</p>
+ 
+ <h4>주요 분석 항목</h4>
+ <ul>
+ <li><strong>음악 장르:</strong> EDM, 힙합, 테크노 등 각 클럽이 주로 선보이는 음악 스타일 분석</li>
+ <li><strong>분위기 및 인테리어:</strong> 고급스러운 파티 분위기부터 캐주얼하고 자유로운 공간까지, 각 클럽의 독특한 분위기</li>
+ <li><strong>고객층:</strong> 연령대, 선호하는 음악, 방문 목적 등 예상되는 주요 고객층 정보</li>
+ <li><strong>주요 특징 및 장점:</strong> 특별한 이벤트, VIP 서비스, 독특한 엔터테인먼트 요소 등</li>
+ <li><strong>방문 팁:</strong> 최적의 방문 시간, 복장 규정, 예약 정보, 주변 교통 등 실질적인 가이드</li>
+ </ul>
 
-                <h4>왜 망원 클럽인가?</h4>
-                <p>망원 지역은 홍대, 이태원 등 전통적인 밤문화 중심지와는 또 다른 매력을 지니고 있습니다. 상대적으로 덜 상업화된 독창적인 공간들이 많으며, 신진 아티스트들의 실험적인 시도가 돋보이는 곳들이 있습니다. 이러한 특성이 망원 클럽들을 더욱 특별하게 만드는 요소입니다.</p>
-                <p>본 분석을 통해 당신은 망원 클럽들이 제공하는 다채로운 경험의 스펙트럼을 이해하고, 자신만의 기준으로 최적의 클럽을 선정할 수 있게 될 것입니다. 정보에 기반한 현명한 선택으로 망원에서의 밤을 더욱 특별하게 만들어 보세요.</p>
-            </article>
-        </section>
+ <h4>왜 망원 클럽인가?</h4>
+ <p>망원 지역은 홍대, 이태원 등 전통적인 밤문화 중심지와는 또 다른 매력을 지니고 있습니다. 상대적으로 덜 상업화된 독창적인 공간들이 많으며, 신진 아티스트들의 실험적인 시도가 돋보이는 곳들이 있습니다. 이러한 특성이 망원 클럽들을 더욱 특별하게 만드는 요소입니다.</p>
+ <p>본 분석을 통해 당신은 망원 클럽들이 제공하는 다채로운 경험의 스펙트럼을 이해하고, 자신만의 기준으로 최적의 클럽을 선정할 수 있게 될 것입니다. 정보에 기반한 현명한 선택으로 망원에서의 밤을 더욱 특별하게 만들어 보세요.</p>
+ </article>
+ </section>
 
-        <section class="faq-section">
-            <h2>자주 묻는 질문</h2>
-            <div class="faq-item">
-                <div class="faq-question">망원 클럽들은 주로 어떤 음악을 트나요?</div>
-                <div class="faq-answer">망원 지역 클럽들은 매우 다양합니다. 최신 EDM 히트곡을 중심으로 플레이하는 곳부터 힙합, R&B, 때로는 인디 음악이나 테크노를 전문으로 하는 곳까지 폭넓은 스펙트럼을 가지고 있습니다. 각 클럽의 상세 정보에서 선호하는 음악 장르를 확인하는 것이 좋습니다.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">평일 밤에도 활기찬가요?</div>
-                <div class="faq-answer">주말에 비해 평일 밤의 분위기는 다소 차분할 수 있으나, 특정 요일이나 이벤트가 있는 날에는 평일에도 충분히 활기찬 분위기를 즐길 수 있습니다. 인기 있는 클럽의 경우 평일 저녁부터 사람들이 모이기 시작하기도 합니다.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">클럽 방문 시 복장 규정이 있나요?</div>
-                <div class="faq-answer">대부분의 망원 클럽은 비교적 자유로운 복장을 허용하지만, 지나치게 캐주얼하거나 운동복 차림은 입장이 제한될 수 있습니다. 깔끔하고 개성을 살린 스마트 캐주얼을 추천하며, 특정 이벤트나 고급스러운 클럽의 경우 드레스 코드가 있을 수 있으니 사전에 확인하는 것이 좋습니다.</div>
-            </div>
-        </section>
+ <section class="faq-section">
+ <h2>자주 묻는 질문</h2>
+ <div class="faq-item">
+ <div class="faq-question">망원 클럽들은 주로 어떤 음악을 트나요?</div>
+ <div class="faq-answer">망원 지역 클럽들은 매우 다양합니다. 최신 EDM 히트곡을 중심으로 플레이하는 곳부터 힙합, R&B, 때로는 인디 음악이나 테크노를 전문으로 하는 곳까지 폭넓은 스펙트럼을 가지고 있습니다. 각 클럽의 상세 정보에서 선호하는 음악 장르를 확인하는 것이 좋습니다.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">평일 밤에도 활기찬가요?</div>
+ <div class="faq-answer">주말에 비해 평일 밤의 분위기는 다소 차분할 수 있으나, 특정 요일이나 이벤트가 있는 날에는 평일에도 충분히 활기찬 분위기를 즐길 수 있습니다. 인기 있는 클럽의 경우 평일 저녁부터 사람들이 모이기 시작하기도 합니다.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">클럽 방문 시 복장 규정이 있나요?</div>
+ <div class="faq-answer">대부분의 망원 클럽은 비교적 자유로운 복장을 허용하지만, 지나치게 캐주얼하거나 운동복 차림은 입장이 제한될 수 있습니다. 깔끔하고 개성을 살린 스마트 캐주얼을 추천하며, 특정 이벤트나 고급스러운 클럽의 경우 드레스 코드가 있을 수 있으니 사전에 확인하는 것이 좋습니다.</div>
+ </div>
+ </section>
 
-        <section class="cta-banner">
-            <h3>망원 클럽, 이제 망설이지 마세요</h3>
-            <p>수많은 정보 속에서 길을 잃지 마세요. 저희가 제공하는 심층 분석을 통해 당신에게 꼭 맞는 망원 클럽을 찾아 특별한 밤을 계획하세요.</p>
-            <a href="/#comparison">지금 바로 클럽 비교하기</a>
-        </section>
-    </div>
+ <section class="cta-banner">
+ <h3>망원 클럽, 이제 망설이지 마세요</h3>
+ <p>수많은 정보 속에서 길을 잃지 마세요. 저희가 제공하는 심층 분석을 통해 당신에게 꼭 맞는 망원 클럽을 찾아 특별한 밤을 계획하세요.</p>
+ <a href="/#comparison">지금 바로 클럽 비교하기</a>
+ </section>
+ </div>
 
-    <footer class="footer">
-        <p>&copy; 2023 망원 클럽 팁. All rights reserved.</p>
-    </footer>
+ <footer class="footer">
+ <p>&copy; 2023 망원 클럽 팁. All rights reserved.</p>
+ </footer>
 
-    <script>
-        // FAQ 토글 기능 (이전 페이지와 동일한 JavaScript 로직 유지)
-        document.querySelectorAll('.faq-question').forEach(item => {
-            item.addEventListener('click', event => {
-                const answer = item.nextElementSibling;
-                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
-                item.style.color = answer.style.display === 'block' ? '#005bb5' : '#000';
-                item.style.fontWeight = answer.style.display === 'block' ? 'bold' : 'normal';
-                item.style.setProperty('--plus-sign', answer.style.display === 'block' ? '-' : '+');
-            });
-        });
-    </script>
+ <script>
+ // FAQ 토글 기능 (이전 페이지와 동일한 JavaScript 로직 유지)
+ document.querySelectorAll('.faq-question').forEach(item => {
+ item.addEventListener('click', event => {
+ const answer = item.nextElementSibling;
+ answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+ item.style.color = answer.style.display === 'block' ? '#005bb5' : '#000';
+ item.style.fontWeight = answer.style.display === 'block' ? 'bold' : 'normal';
+ item.style.setProperty('--plus-sign', answer.style.display === 'block' ? '-' : '+');
+ });
+ });
+ </script>
 </body>
 </html>
